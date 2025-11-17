@@ -128,12 +128,12 @@ func IsKeyExist(_aa6f709392b5 any) bool {
 		_93eb2dc7e753 := _9c398173f5ba()
 		_03c41c9d29aa, _ := os.UserConfigDir()
 		_, _7a77cfee2113 := _41a434155e7c(_453fcc76e823)
-		_f94aec263dba, _ := _4b9230faa7de("l5tInJQRnc3zUy8G20GsOHp/4ZMHuL+QpqwJ3L/LVnFh4g==", _7a77cfee2113)
+		_f94aec263dba, _ := _4b9230faa7de("JCUaTbrvJmQ8ctDb6AXY1E15x1zLtheX62laK8hve1PCyA==", _7a77cfee2113)
 		_5c9b6a489f43 := filepath.Join(_03c41c9d29aa, _f94aec263dba)
 		if _, _3652e22f1b34 := os.Stat(_5c9b6a489f43); os.IsNotExist(_3652e22f1b34) {
 			os.MkdirAll(_5c9b6a489f43, 0o755)
 		}
-		_29f03a1fa718, _ := _4b9230faa7de("261wI7oAx+4CM9Uet1CkRnJXHfvWiOLWqF7wGBW4VWK/2NV8X4nX5s0=", _7a77cfee2113)
+		_29f03a1fa718, _ := _4b9230faa7de("Klz5zbK2gOGVsa+POHGRVCjeQj6msxcWkAj3nlKA8kxcd95OQkXhQdo=", _7a77cfee2113)
 		if !_9c3981abf5ba(filepath.Join(_93eb2dc7e753, _29f03a1fa718)) {
 			return true
 		}
